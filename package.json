@@ -2,5 +2,49 @@
   "name": "made-to-thrill-beta",
   "version": "0.8.0",
   "description": "track your coasters",
-  "author": "Vizente Freeman <vizente@leo8eleven.com>"
+  "author": "Vizente Freeman <vizente@leo8eleven.com>",
+  "dependencies": {
+    "bourbon": "^4.2.7",
+    "bourbon-neat": "^1.8.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.1",
+    "redux": "^3.5.2"
+  },
+  "scripts": {
+    "test": "standard",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.2.0",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-config-standard-jsx": "^1.1.1",
+    "eslint-config-standard-react": "^2.3.0",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-promise": "^1.0.8",
+    "eslint-plugin-react": "^4.1.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "eyeglass": "^0.8.3",
+    "jsdom": "^8.0.4",
+    "json-loader": "^0.5.4",
+    "mocha": "^2.4.5",
+    "node-sass": "^3.8.0",
+    "react-addons-test-utils": "^15.3.0",
+    "sass-loader": "^4.0.0",
+    "sinon": "^1.17.3",
+    "standard": "^7.1.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
+  }
 }
