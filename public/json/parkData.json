@@ -1,0 +1,292 @@
+{
+  "parks" : [
+    {
+      "parkName": "Six Flags Great America",
+      "parkLocation" : {
+        "parkCity": "Gurnee",
+        "parkState": "Illinois",
+        "parkCountry": "USA"
+      },
+      "parkOpenYear": "",
+      "parkOwner": "",
+      "parkTheme": "",
+      "parkDesigner": "",
+      "coasters": [
+        {
+          "coasterName":"",
+          "coasterLocation": "",
+          "coasterSpeed": "",
+          "coasterHeight": "",
+          "coasterDrop": "",
+          "coasterLength": "",
+          "coasterInversions": "",
+          "coasterTheme": "",
+          "coasterManufacturer": "",
+          "coasterDesigner": "",
+          "coasterType": "",
+          "coasterRestraint": ""
+        }
+      ],
+      "attractions": [
+        {
+          "attractionName": "",
+          "attractionLocation": ""
+        }
+
+      ],
+      "restaurants": [
+        {
+          "restaurantName" : "",
+          "restaurantLocation": "",
+          "restaurantFoodType": ""
+        }
+      ],
+      "shops": [
+        {
+          "shopName" : "",
+          "shopLocation" : ""
+        }
+      ]
+    },
+    {
+      "parkName": "Cedar Point",
+      "parkLocation" : {
+        "parkCity": "Sandusky",
+        "parkState": "Ohio",
+        "parkCountry": "USA"
+      },
+      "parkOpenYear": "",
+      "parkOwner": "",
+      "parkTheme": "",
+      "parkDesigner": "",
+      "coasters": [
+        {
+          "coasterName":"",
+          "coasterLocation": "",
+          "coasterSpeed": "",
+          "coasterHeight": "",
+          "coasterDrop": "",
+          "coasterLength": "",
+          "coasterInversions": "",
+          "coasterTheme": "",
+          "coasterManufacturer": "",
+          "coasterDesigner": "",
+          "coasterType": "",
+          "coasterRestraint": ""
+        }
+      ],
+      "attractions": [
+        {
+          "attractionName": "",
+          "attractionLocation": ""
+        }
+
+      ],
+      "restaurants": [
+        {
+          "restaurantName" : "",
+          "restaurantLocation": "",
+          "restaurantFoodType": ""
+        }
+      ],
+      "shops": [
+        {
+          "shopName" : "",
+          "shopLocation" : ""
+        }
+      ]
+    },
+    {
+      "parkName": "Hollywood Studios",
+      "parkLocation" : {
+        "parkCity": "",
+        "parkState": "",
+        "parkCountry": "USA"
+      },
+      "parkOpenYear": "",
+      "parkOwner": "",
+      "parkTheme": "",
+      "parkDesigner": "",
+      "coasters": [
+        {
+          "coasterName":"",
+          "coasterLocation": "",
+          "coasterSpeed": "",
+          "coasterHeight": "",
+          "coasterDrop": "",
+          "coasterLength": "",
+          "coasterInversions": "",
+          "coasterTheme": "",
+          "coasterManufacturer": "",
+          "coasterDesigner": "",
+          "coasterType": "",
+          "coasterRestraint": ""
+        }
+      ],
+      "attractions": [
+        {
+          "attractionName": "",
+          "attractionLocation": ""
+        }
+
+      ],
+      "restaurants": [
+        {
+          "restaurantName" : "",
+          "restaurantLocation": "",
+          "restaurantFoodType": ""
+        }
+      ],
+      "shops": [
+        {
+          "shopName" : "",
+          "shopLocation" : ""
+        }
+      ]
+    },
+    {
+      "parkName": "Animal Kingdom",
+      "parkLocation" : {
+        "parkCity": "Orlando",
+        "parkState": "Florida",
+        "parkCountry": "USA"
+      },
+      "parkOpenYear": "",
+      "parkOwner": "",
+      "parkTheme": "",
+      "parkDesigner": "",
+      "coasters": [
+            {
+              "coasterName":"",
+              "coasterLocation": "",
+              "coasterSpeed": "",
+              "coasterHeight": "",
+              "coasterDrop": "",
+              "coasterLength": "",
+              "coasterInversions": "",
+              "coasterTheme": "",
+              "coasterManufacturer": "",
+              "coasterDesigner": "",
+              "coasterType": "",
+              "coasterRestraint": ""
+            }
+          ],
+      "attractions": [
+            {
+              "attractionName": "",
+              "attractionLocation": ""
+            }
+
+          ],
+      "restaurants": [
+            {
+              "restaurantName" : "",
+              "restaurantLocation": "",
+              "restaurantFoodType": ""
+            }
+          ],
+      "shops": [
+            {
+              "shopName" : "",
+              "shopLocation" : ""
+            }
+          ]
+    },
+    {
+      "parkName": "Magic Kingdom",
+      "parkLocation" : {
+        "parkCity": "Orlando",
+        "parkState": "Florida",
+        "parkCountry": "USA"
+      },
+      "parkOpenYear": "",
+      "parkOwner": "",
+      "parkTheme": "",
+      "parkDesigner": "",
+      "coasters": [
+        {
+          "coasterName":"",
+          "coasterLocation": "",
+          "coasterSpeed": "",
+          "coasterHeight": "",
+          "coasterDrop": "",
+          "coasterLength": "",
+          "coasterInversions": "",
+          "coasterTheme": "",
+          "coasterManufacturer": "",
+          "coasterDesigner": "",
+          "coasterType": "",
+          "coasterRestraint": ""
+        }
+      ],
+      "attractions": [
+        {
+          "attractionName": "",
+          "attractionLocation": ""
+        }
+
+      ],
+      "restaurants": [
+        {
+          "restaurantName" : "",
+          "restaurantLocation": "",
+          "restaurantFoodType": ""
+        }
+      ],
+      "shops": [
+        {
+          "shopName" : "",
+          "shopLocation" : ""
+        }
+      ]
+    },
+    {
+      "parkName": "EPCOT",
+      "parkLocation" : {
+        "parkCity": "Orlando",
+        "parkState": "Florida",
+        "parkCountry": "USA"
+      },
+      "parkOpenYear": "",
+      "parkOwner": "",
+      "parkTheme": "",
+      "parkDesigner": "",
+      "coasters": [
+        {
+          "coasterName":"",
+          "coasterLocation": "",
+          "coasterSpeed": "",
+          "coasterHeight": "",
+          "coasterDrop": "",
+          "coasterLength": "",
+          "coasterInversions": "",
+          "coasterTheme": "",
+          "coasterManufacturer": "",
+          "coasterDesigner": "",
+          "coasterType": "",
+          "coasterRestraint": ""
+        }
+      ],
+      "attractions": [
+        {
+          "attractionName": "",
+          "attractionLocation": ""
+        }
+
+      ],
+      "restaurants": [
+        {
+          "restaurantName" : "",
+          "restaurantLocation": "",
+          "restaurantFoodType": ""
+        }
+      ],
+      "shops": [
+        {
+          "shopName" : "",
+          "shopLocation" : ""
+        }
+      ]
+    }
+  ]
+}

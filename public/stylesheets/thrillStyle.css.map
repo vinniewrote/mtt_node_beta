@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGE,IAAK;EACH,UAAU,EAAE,UAAU;;AAItB,sBAEU;EACR,UAAU,EAAE,OAAO;;ACRzB,GAAI;EACF,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,CAAC;EACL,MAAG;IACD,OAAO,EAAE,SAAS;IAClB,OAAO,EAAE,MAAM",
+"sources": ["../../neat/grid/_box-sizing.scss","../../assets/sass/thrillStyle.scss"],
+"names": [],
+"file": "thrillStyle.css"
+}

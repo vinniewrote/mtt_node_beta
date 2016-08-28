@@ -8,7 +8,7 @@ module.exports = {
   entry: './assets/js/app.jsx',
   output: {
     path: path.join(__dirname, '/public/js'),
-    filename: 'bundle.js'
+    filename: 'thrillBundle.js'
   },
   resolve: {
     extensions: ['', '.js', '.jsx', '.json']
@@ -23,17 +23,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         loader: 'babel-loader'
-      },
-      {
-       test: /\.scss$/,
-       loaders: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
-     }
+      }
     ]
-  },
-  plugins: [
-		new ExtractTextPlugin('public/stylesheets/styles.css')
-	],
-  // sassLoader: {
-  //   includePaths: [bourbon, neat]
-  // }
+  }
 };
