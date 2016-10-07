@@ -1,14 +1,14 @@
 const path = require('path')
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const bourbon = require("bourbon").includePaths;
-const neat = require("bourbon-neat").includePaths
+const neat = require("bourbon-neat").includePaths;
 
 module.exports = {
   context: __dirname,
-  entry: './assets/js/app.jsx',
+  entry: './assets/js/App.jsx',
   output: {
-    path: path.join(__dirname, '/public/js'),
-    filename: 'thrillBundle.js'
+    path: path.join(__dirname, '/public'),
+    filename: '/js/thrillBundle.js'
   },
   resolve: {
     extensions: ['', '.js', '.jsx', '.json']
@@ -23,7 +23,15 @@ module.exports = {
       {
         test: /\.jsx?$/,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
       }
     ]
+  },
+  devServer: {
+    inline: true,
+    port: 3000
   }
 };

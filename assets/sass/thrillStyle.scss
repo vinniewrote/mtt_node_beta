@@ -5,8 +5,12 @@ nav {
   position: fixed;
   bottom: 0;
   left: 0;
-    li {
-      padding: 10px 15px;
-      display: inline;
+  width: 100%;
+    button {
+      padding: 20px 15px;
+      width: 25%;
+      background-color: #161e27;
+      color: #ffffff;
+      border: none;
     }
 }

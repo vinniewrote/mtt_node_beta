@@ -1,14 +1,30 @@
-const React = require('react')
+import React from 'react'
 const ReactDOM = require('react-dom')
+const ReactRouter = require('react-router')
+const Layout = require('./Layout')
 const MttNavigation = require('./MttNavigation')
+const Discover = require('./Discover')
+const Parks = require('./Parks')
+import Profile from './Profile'
+const Journal = require('./Journal')
+const Details = require('./Details')
+import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
 
-var NavComponent = () => (
-  <nav>
-    <MttNavigation title='Discover' />
-    <MttNavigation title='Parks' />
-    <MttNavigation title='Journal' />
-    <MttNavigation title='Profile' />
-  </nav>
-)
+class App extends React.Component {
 
-ReactDOM.render(<NavComponent/>, document.getElementById('appContainer'))
+  render() {
+    return (
+      <Router history={hashHistory}>
+        <Route path='/' component={Layout}>
+          <Route path='/discover' component={Discover} />
+          <Route path='/parks' component={Parks}>
+            <Route path='/details/:id' component={Details} />
+          </Route>
+          <Route path='/journal' component={Journal} />
+          <Route path='/profile' component={Profile} />
+        </Route>
+      </Router>
+    );
+  }
+}
+ReactDOM.render(<App/>, document.getElementById('appContainer'))
